@@ -1,0 +1,23 @@
+/* SELECTOR UNIVERSAL */
+/* * {
+    color: red;
+} */
+
+/* SELECTORES DE ETIQUETA */
+h1, h2, h3 {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+/* SELECTOR DESENDENTE */
+div  p {
+    font-size: 20px;
+    color: black;
+}
+
+p a {
+    color: red;
+}
