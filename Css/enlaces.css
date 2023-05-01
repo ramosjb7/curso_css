@@ -1,0 +1,27 @@
+a {
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+/* PSEUDO CLASES */
+/* ES CUANDO PASE EL MAUSE SOBRE EL ENLACE */
+a:hover {
+    background: #f9a03f;
+    color: white;
+}
+/* PONER QUE ESTILOS a los enlaces QUE NO HAN SIDO VISITADOS */
+a:link {
+    text-decoration: none;
+    /* color: red; */
+}
+/* LOS ENLACES QUE FUERON VISITADOS */
+a:visited {
+    color: #3cc;
+}
+
+/* ESTADO CUANDO LE DAMOS UN CLICK */
+a:active {
+    text-decoration: underline;
+    color: yellow;
+}
