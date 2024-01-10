@@ -1,0 +1,65 @@
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+ }
+
+ /* div, a {
+    background: #ccc;
+ } */
+
+ a {
+    /* display: block; */
+    /* visibility: hidden;  los oculta pero no pierde el espacio */
+    background: #246eb9;
+    color: #fff;
+    padding: 20px;
+    display: inline-block;
+ }
+
+ /* display [inline, block, none, inline-block, flex] */
+
+
+
+ .caja {
+    color: #000;
+    background: #4fb560;
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;  /* auto |  */
+ }
+
+ .contenedor {
+    width: 600px;
+    background: #ccc;
+    margin: 20px 0;
+    overflow: hidden;
+ }
+
+
+ .izquierda {
+    float: left;
+ }
+
+ .derecha {
+     float: right;
+ }
+
+ .contenedor2 .caja{
+    width: 150px;
+    height: 150px;
+    position: relative;
+ }
+
+ .azul {
+    background: #009ddc;
+    z-index: 10;
+
+ }
+
+ .gris {
+    background: #32021f;
+    left: 50px;
+    bottom: 80px;
+    z-index: 9;
+ }
