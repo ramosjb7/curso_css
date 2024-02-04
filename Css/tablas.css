@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ESTO ES UN BORDER DE LA TABLA de cada TD Y TH sale con dos bordes */
+table, td, th {
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+/* ESTO ES UN BORDER DE LA TABLA  */
+table {
+    border-collapse: collapse;
+    width: 500px;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px 20px;
+}
+
+th {
+    background: #009ddc;
+    color: #fff;
+}
+
+tr:hover {
+    background: #e5e5e5;
+}
